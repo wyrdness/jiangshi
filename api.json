@@ -1,0 +1,521 @@
+{
+  "category": "UNDEAD",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/jiangshi",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "jiangshi",
+    "name": "Jiangshi",
+    "aliases": [
+      {
+        "name": "僵尸",
+        "language": "Chinese (Simplified)",
+        "meaning": "stiff corpse"
+      },
+      {
+        "name": "殭屍",
+        "language": "Chinese (Traditional)",
+        "meaning": "stiff corpse"
+      },
+      {
+        "name": "Kyonshī",
+        "language": "Japanese",
+        "meaning": "Chinese zombie"
+      },
+      {
+        "name": "Gangshi",
+        "language": "Korean",
+        "meaning": "stiff corpse"
+      },
+      {
+        "name": "Hopping Vampire",
+        "language": "English",
+        "meaning": "Descriptive translation"
+      },
+      {
+        "name": "Hopping Zombie",
+        "language": "English",
+        "meaning": "Descriptive translation"
+      },
+      {
+        "name": "Chinese Vampire",
+        "language": "English",
+        "meaning": "Common Western term"
+      }
+    ],
+    "category": "UNDEAD",
+    "subcategory": "Reanimated Corpse",
+    "tags": [
+      "undead",
+      "vampire",
+      "zombie",
+      "chinese-folklore",
+      "qing-dynasty",
+      "taoist",
+      "hopping",
+      "corpse",
+      "supernatural"
+    ],
+    "status": "folklore",
+    "description": {
+      "summary": "A reanimated corpse from Chinese folklore that moves by hopping, dressed in Qing dynasty official robes. Jiangshi absorb life force (qi) from the living and are controlled through Taoist magic.",
+      "full": "The jiangshi is a unique form of undead creature from Chinese folklore, distinct from Western vampires and zombies. Characterized by its stiff-limbed hopping gait and Qing dynasty official attire, the jiangshi is a corpse reanimated through various means including improper burial, possession by vengeful spirits, or magical rituals. These creatures are driven by an insatiable hunger for life force (qi), which they absorb from living victims. Unlike Western vampires that drink blood, jiangshi drain the vital essence directly. They are most active at night, possess superhuman strength, and can be controlled or repelled through Taoist talismans, mirrors, and specific rituals. The jiangshi tradition reflects Chinese beliefs about death, proper burial rites, and the importance of ancestral veneration."
+    },
+    "etymology": {
+      "origin": "From Chinese '僵' (jiāng, stiff) and '尸' (shī, corpse). The term appears in Qing dynasty folklore and literature, reflecting cultural anxieties about improper death and burial.",
+      "meaning": "Literally translates to 'stiff corpse', referring to the characteristic rigor mortis-like rigidity that causes the hopping movement",
+      "first_use": "Qing Dynasty (1644-1912), with roots in earlier Chinese folklore"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "UNDEAD",
+      "type": "Reanimated Corpse",
+      "subtype": "Vampiric",
+      "variant": "Chinese"
+    },
+    "related_phenomena": [
+      {
+        "id": "vampires",
+        "name": "Vampires",
+        "relationship": "similar",
+        "description": "Western undead that feed on blood; jiangshi drain qi instead"
+      },
+      {
+        "id": "draugr",
+        "name": "Draugr",
+        "relationship": "similar",
+        "description": "Norse undead with similar reanimation themes"
+      },
+      {
+        "id": "gaki",
+        "name": "Gaki",
+        "relationship": "cultural_parallel",
+        "description": "Japanese hungry ghosts with similar hunger themes"
+      },
+      {
+        "id": "pontianak",
+        "name": "Pontianak",
+        "relationship": "regional_variant",
+        "description": "Southeast Asian vampire with different origin mythology"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "min": 1.5,
+        "max": 1.9,
+        "unit": "meters",
+        "confidence": "medium"
+      },
+      "weight": {
+        "min": 50,
+        "max": 90,
+        "unit": "kilograms",
+        "confidence": "low"
+      },
+      "coloration": [
+        "pale greenish-white skin",
+        "black or dark blue Qing dynasty robes",
+        "yellowed nails (often elongated)",
+        "corpse-like pallor"
+      ],
+      "features": [
+        {
+          "feature": "Stiff limbs",
+          "description": "Body affected by extreme rigor mortis, causing characteristic hopping movement",
+          "frequency": "always"
+        },
+        {
+          "feature": "Qing dynasty official robes",
+          "description": "Dressed in traditional Chinese bureaucratic attire with rank insignia",
+          "frequency": "common"
+        },
+        {
+          "feature": "Outstretched arms",
+          "description": "Arms extended forward due to rigor mortis and for balance while hopping",
+          "frequency": "always"
+        },
+        {
+          "feature": "Pale, greenish skin",
+          "description": "Corpse-like complexion with greenish or bluish tinge from decomposition",
+          "frequency": "common"
+        },
+        {
+          "feature": "Long fingernails",
+          "description": "Elongated, yellowed nails (believed to continue growing after death)",
+          "frequency": "common"
+        },
+        {
+          "feature": "Paper talisman on forehead",
+          "description": "Yellow Taoist fu (符) used to control or immobilize the jiangshi",
+          "frequency": "occasional"
+        }
+      ],
+      "morphology": "Humanoid corpse with extreme rigor mortis. Moves exclusively by hopping due to stiff joints. Retains human appearance but with obvious signs of death and decomposition. Often shows signs of the death that created them (wounds, pale complexion, etc.)."
+    },
+    "abilities": [
+      {
+        "ability": "Qi absorption",
+        "description": "Drains life force (qi) from living beings through physical contact or proximity",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Superhuman strength",
+        "description": "Possesses strength far exceeding normal human capabilities",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Life detection",
+        "description": "Senses living beings by detecting their breath and qi",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Night activity",
+        "description": "Most active during nighttime hours, weakened or dormant during day",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Corpse transformation",
+        "description": "Can transform living victims into jiangshi through qi drainage",
+        "frequency": "occasional",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Weather manipulation",
+        "description": "Some accounts describe ability to summon fog or storms",
+        "frequency": "rare",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "hostile",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "graveyards",
+        "abandoned buildings",
+        "remote areas",
+        "places of improper burial"
+      ],
+      "diet": "Qi (life force) from living beings",
+      "patterns": [
+        "Hunts by sensing breath and qi of living beings",
+        "Returns to resting place before dawn",
+        "Avoids mirrors and Taoist symbols",
+        "Can be controlled by Taoist priests with proper talismans",
+        "Attracted to places with strong yin energy"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Originates from Chinese folklore, particularly prevalent during Qing dynasty. Stories spread throughout East Asia including Japan, Korea, and Southeast Asian Chinese communities.",
+      "continents": ["Asia"],
+      "countries": ["China", "Hong Kong", "Taiwan", "Singapore", "Japan", "Korea", "Vietnam"],
+      "regions": [
+        "Southern China",
+        "Guangdong Province",
+        "Hong Kong",
+        "Taiwan",
+        "Overseas Chinese communities"
+      ]
+    },
+    "hotspots": [
+      {
+        "name": "Hong Kong",
+        "location": {
+          "description": "Hong Kong Special Administrative Region",
+          "country": "China",
+          "region": "Southern China",
+          "coordinates": {
+            "latitude": 22.3193,
+            "longitude": 114.1694
+          }
+        },
+        "significance": "Center of jiangshi film production in 1980s-1990s",
+        "notes": "Hong Kong cinema popularized jiangshi in modern culture"
+      },
+      {
+        "name": "Guangdong Province",
+        "location": {
+          "description": "Southern China",
+          "country": "China",
+          "region": "Guangdong",
+          "coordinates": {
+            "latitude": 23.3790,
+            "longitude": 113.7633
+          }
+        },
+        "significance": "Traditional center of jiangshi folklore",
+        "notes": "Many traditional tales originate from this region"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "Pre-Qing Dynasty",
+        "circa": true,
+        "source": "Earlier references to reanimated corpses in Chinese literature, formalized during Qing dynasty"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "Qing Dynasty (1644-1912)",
+          "description": "Peak of traditional jiangshi folklore and literature"
+        },
+        {
+          "period": "1980s-1990s",
+          "description": "Hong Kong cinema revival and popularization"
+        }
+      ],
+      "seasonal_patterns": "More active during festivals and periods associated with death and ancestor worship"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Rooted in Chinese beliefs about death, improper burial, ancestral veneration, and the soul's journey to the afterlife. Reflects Taoist and folk religious concepts of qi, yin-yang balance, and spiritual realms.",
+      "earliest_accounts": "References to reanimated corpses appear in pre-Qing literature, but the characteristic jiangshi form developed during the Qing dynasty (1644-1912).",
+      "folklore_connections": "Connected to broader Chinese traditions of ghosts (gui), demons, and the importance of proper burial rites. Influenced by Taoist magical practices and Buddhist concepts of karma."
+    },
+    "timeline": [
+      {
+        "date": "Pre-Qing",
+        "event": "Early references to reanimated corpses",
+        "significance": "Proto-jiangshi concepts in Chinese supernatural literature",
+        "source": "Classical Chinese texts"
+      },
+      {
+        "date": "1644-1912",
+        "event": "Qing dynasty formalization",
+        "significance": "Modern jiangshi characteristics solidified, including Qing official robes and hopping gait",
+        "source": "Qing dynasty folklore collections"
+      },
+      {
+        "date": "1936",
+        "event": "First jiangshi film",
+        "significance": "Midnight Vampire introduces jiangshi to cinema",
+        "source": "Chinese cinema history"
+      },
+      {
+        "date": "1985",
+        "event": "Mr. Vampire released",
+        "significance": "Sammo Hung's film sparks Hong Kong jiangshi movie boom",
+        "source": "Hong Kong film industry"
+      },
+      {
+        "date": "1980s-1990s",
+        "event": "Hong Kong cinema golden age",
+        "significance": "Dozens of jiangshi films produced, establishing modern popular image",
+        "source": "Film archives"
+      },
+      {
+        "date": "2000s-present",
+        "event": "Global pop culture spread",
+        "significance": "Jiangshi appear in video games, anime, and international media",
+        "source": "Contemporary media"
+      }
+    ],
+    "modern_era": "While traditional belief in jiangshi has declined, the figure remains a cultural icon in Chinese popular culture. Modern interpretations appear in films, video games (Genshin Impact, Lost Ark), and international media. The jiangshi has become recognized globally as a distinctly Chinese supernatural creature."
+  },
+
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0,
+      "date_range": {
+        "earliest": "Qing Dynasty",
+        "latest": "folklore"
+      }
+    },
+    "notable": [],
+    "database_path": null,
+    "notes": "Jiangshi are folkloric creatures with no documented modern sightings. Stories are traditional tales passed through literature and oral tradition."
+  },
+
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": [],
+    "notes": "No physical evidence exists. All accounts are folkloric and literary."
+  },
+
+  "theories": {
+    "paranormal": [
+      {
+        "name": "Improper burial",
+        "description": "Corpses improperly buried or dying far from home become jiangshi, unable to rest",
+        "proponents": ["Traditional Chinese folklore"],
+        "evidence_cited": ["Cultural emphasis on proper burial rites"]
+      },
+      {
+        "name": "Vengeful spirit possession",
+        "description": "Evil spirits possess corpses, animating them as jiangshi",
+        "proponents": ["Taoist tradition"],
+        "evidence_cited": ["Taoist exorcism practices"]
+      },
+      {
+        "name": "Necromantic ritual",
+        "description": "Evil sorcerers deliberately create jiangshi through dark magic",
+        "proponents": ["Folklore tradition"],
+        "evidence_cited": ["Tales of evil Taoist priests"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Cadaver transportation legend",
+        "description": "Stories may originate from corpse carriers who transported bodies at night, making them appear to 'hop' due to carrying poles",
+        "proponents": ["Folklorists"],
+        "evidence_cited": ["Historical practice of corpse transportation in China"]
+      },
+      {
+        "name": "Disease explanation",
+        "description": "May reflect fear of contagious diseases transmitted from corpses",
+        "proponents": ["Anthropologists"],
+        "evidence_cited": ["Cultural taboos around death and disease"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Pure folklore",
+        "description": "Jiangshi are entirely fictional creations reflecting cultural anxieties about death and improper burial",
+        "proponents": ["Mainstream scholars"],
+        "evidence_cited": ["No credible evidence of actual undead creatures", "Clear folkloric origins"]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Qing dynasty ghost stories",
+        "Taoist magical practices",
+        "Ancestral veneration customs",
+        "Funeral rite traditions"
+      ],
+      "stories": [
+        "The Corpse Walkers - Stories of professionals who transported bodies at night",
+        "Various Qing dynasty supernatural tales",
+        "Mr. Vampire film series narratives"
+      ],
+      "beliefs": "Traditional Chinese culture emphasized proper burial and ancestral veneration. Jiangshi represent the consequences of violating these sacred practices, embodying fears of improper death and spiritual unrest."
+    },
+    "religious_context": {
+      "religions": ["Taoism", "Chinese Folk Religion", "Buddhism"],
+      "significance": "Reflects Taoist concepts of qi, yin-yang balance, and spiritual cultivation. Buddhist influences appear in karmic explanations. Folk religious practices include protective talismans and rituals.",
+      "practices": [
+        "Taoist fu (talisman) placement on forehead to control jiangshi",
+        "Use of glutinous rice to dispel evil",
+        "Mirror placement to repel undead",
+        "Proper burial rites to prevent transformation",
+        "Breath-holding to avoid detection by jiangshi"
+      ]
+    },
+    "popular_culture": {
+      "literature": [
+        "Strange Tales from a Chinese Studio (Qing dynasty)",
+        "Various Qing supernatural fiction collections",
+        "Modern fantasy novels featuring jiangshi"
+      ],
+      "film_tv": [
+        "Midnight Vampire (1936) - First jiangshi film",
+        "Mr. Vampire (1985) - Iconic Hong Kong film",
+        "Encounters of the Spooky Kind (1980) - Early Sammo Hung film",
+        "Rigor Mortis (2013) - Modern dark reimagining",
+        "Jujutsu Kaisen (anime) - Features jiangshi-inspired cursed corpses"
+      ],
+      "games": [
+        "Genshin Impact (Qiqi character is a jiangshi)",
+        "Lost Ark (jiangshi enemies)",
+        "Darkstalkers (Hsien-Ko character)",
+        "Sleeping Dogs (jiangshi DLC)",
+        "World of Warcraft (Hopping Vampire pet)"
+      ],
+      "other": [
+        "Popular Halloween costume in Asia",
+        "Theme park attractions in Hong Kong",
+        "Martial arts demonstrations incorporating jiangshi movements"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Dr. Judith Zeitlin",
+        "affiliation": "University of Chicago",
+        "contribution": "Scholar of Chinese literature and supernatural fiction",
+        "period": "1990s-present"
+      },
+      {
+        "name": "Professor Ng Ho",
+        "affiliation": "Hong Kong Film Archive",
+        "contribution": "Research on jiangshi in Hong Kong cinema",
+        "period": "1980s-present"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Hong Kong Film Archive",
+        "url": "https://www.filmarchive.gov.hk/",
+        "focus": "Preservation of jiangshi film heritage"
+      }
+    ],
+    "ongoing_studies": "Academic research focuses on jiangshi as cultural phenomenon, examining folkloric origins, literary development, and modern pop culture representations."
+  },
+
+  "sources": [
+    {
+      "id": "zeitlin-2007",
+      "type": "book",
+      "title": "The Phantom Heroine: Ghosts and Gender in Seventeenth-Century Chinese Literature",
+      "authors": ["Judith Zeitlin"],
+      "publication": "University of Hawaii Press",
+      "date": "2007",
+      "isbn": "978-0824830762"
+    },
+    {
+      "id": "ng-2009",
+      "type": "article",
+      "title": "Hong Kong Jiangshi Films",
+      "authors": ["Ng Ho"],
+      "publication": "Hong Kong Film Archive Journal",
+      "date": "2009"
+    },
+    {
+      "id": "strange-tales",
+      "type": "book",
+      "title": "Strange Tales from a Chinese Studio",
+      "authors": ["Pu Songling"],
+      "publication": "Various translations",
+      "date": "c. 1740"
+    }
+  ]
+}
